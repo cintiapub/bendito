@@ -1,0 +1,216 @@
+/* Reset
+------------------------------------------------------------ */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll;}
+body {font-size: 13px; color: #666666; font-family: Arial, helvetica, sans-serif;}
+ol, ul { list-style: none; margin: 0;}
+ul li { margin: 0; padding: 0;}
+h1 { margin-bottom: 10px; color: #111111;}	
+a, img { outline: none; border:none; color: #000; font-weight: bold; text-transform: uppercase;}
+p { margin: 0 0 10px; line-height: 1.4em; font-size: 1.2em;}
+img { display: block; margin-bottom: 10px;}
+aside { font-style: italic; font-size: 0.9em;}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { 
+    display: block;
+	}
+	/* Structure */
+
+body{
+    background-image: url('../images/restaurant_icons.png');
+    background-repeat: repeat repeat;
+}
+
+#wrapper {
+	width: 96%;	
+	max-width: 920px;
+	margin: auto;
+	padding: 2%;
+} 
+
+	#main {
+		width: 60%;
+		margin-right: 5%;
+		float: left;
+}		
+		
+	aside {
+        margin-top: 30%;
+		width: 100%;
+}
+
+    #resume {
+        width: 100%;
+		float: right;
+        padding-bottom: 30px;
+}
+
+/* Logo H1 */
+
+h1 {
+    color: darkred;
+}
+
+header h1 {
+	height: 80px;
+	width: 160px;
+	float: left;
+	display: block;
+	text-indent: -9999px;
+}
+
+#gmap_canvas {
+    width: 100%;
+    height: 500px;
+    background-color:lightgray;
+    margin: 0 auto 40px auto;
+    clear: both;
+}
+		
+/* Nav */
+header nav {
+	float: right;
+	margin-top: 40px; 
+}
+	
+	header nav li {
+		display: inline;
+		margin-left: 15px;
+}
+
+a { 	
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:red;
+}
+
+/* Banner */			
+#banner {
+	float: left;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+#banner img {
+		width: 100%;
+}
+
+#couple {
+       text-align: center;
+       position: relative;
+}
+
+#ageuneuza {  
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 50%;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+/* form*/
+
+
+h3{
+    color: firebrick;
+}
+
+.container mtb {
+    margin: 0 auto;
+    width: 100%;
+}
+
+form{
+    padding-top: 20px;
+}
+
+.col-lg-8{
+    margin-top: 120px;
+}
+
+.col-lg-4{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+input {
+   margin-bottom: 10px;
+   background-color: white;
+   font-size: 18px;
+
+}
+
+input[type="text"], input[type="email"] {
+   width: 100%;
+}
+
+label {
+   margin-bottom: 5px;
+   font-size: 16px;
+}
+
+textarea{
+    font-size: 18px;
+}
+
+#message1{
+    width: 100%;
+}
+
+button{
+    font-size: 18px;
+    color: white;
+    background-color: darkred;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+/* footer*/
+
+    footer {
+    text-align: center;
+    }
+
+    .icons {
+    width: 100%;
+    margin-top: 80px
+    text-align: center;
+    float: right;
+    color: crimson;
+		}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+	
+	header nav, #main, aside {
+		float: left;
+		clear: left;
+		margin: 0 0 10px; 
+		width: 100%;
+		}	
+		header nav li {
+			margin: 0;
+			background: #efefef;
+			display: block;
+			margin-bottom: 3px;
+			}
+			header nav a {
+				display: block;
+				padding: 10px;
+				text-align: center;
+				}			
+}
