@@ -149,7 +149,7 @@ a:focus {
 }
 
 /*TEAM*/
-.team figure{width: 90%; margin-top: 20px;}
+.team figure{width: 90%; margin: 20px auto 0 auto;}
 .team img{border-radius: 100%;margin: auto;}
 .team b{font-size: 1.2em;display: block;}
 .team a i.fa{color: red; font-size: 1em;}
