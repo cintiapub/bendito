@@ -5,15 +5,14 @@ html { overflow-y: scroll;}
 body {font-size: 13px; color: #666666; font-family: Arial, helvetica, sans-serif;}
 ol, ul { list-style: none; margin: 0;}
 ul li { margin: 0; padding: 0;}
-h1 { margin-bottom: 10px; color: darkred !important;}	
-h3 {color: brown !important;}
-h4 {color: brown !important;}
+h1 { margin-bottom: 10px; color: darkred !important;}
+h2, h3, h4 {color: brown !important;}
 a, img { outline: none; border:none; color: #000 !important; font-weight: bold; text-transform: uppercase;}
 p { margin: 0 0 10px; line-height: 1.4em; font-size: 1.2em;}
 img { display: block; margin-bottom: 10px;}
 aside { font-style: italic; font-size: 0.9em;}
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section { 
+footer, header, hgroup, menu, nav, section {
     display: block;
 	}
 
@@ -39,11 +38,12 @@ body{
 }
 
 #wrapper {
-	width: 96%;	
+	width: 96%;
 	max-width: 920px;
 	margin: auto;
 	padding: 2%;
-} 
+  margin-top: 100px;
+}
 
 
 #gmap_canvas {
@@ -52,10 +52,9 @@ body{
     background-color:lightgray;
     margin: 0 auto 40px auto;
     clear: both;
-    margin-top: 120px;
 }
-		
-a { 	
+
+a {
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
 	-o-transition: background-color .4s linear, color .4s linear;
@@ -71,7 +70,6 @@ a:focus {
 
 .about-box{
     background-color: floralwhite;
-    margin-top: 90px;
     padding: 20px;
     margin-bottom: 10px;
 }
@@ -85,16 +83,15 @@ a:focus {
     padding-top: 35px;
 }
 
-/* services */	
+/* services */
 
-.title {
-   text-align: center;
-    background-color: bisque;
-    padding: 20px;
+.jumbotron.title {
+  text-align: center;
+  background-color: bisque;
+  margin-bottom: 0;
 }
 
 #service {
-	margin-top: 10px;
 	margin-bottom: 80px;
 }
 
@@ -127,14 +124,9 @@ a:focus {
 
 /*CAROUSEL*/
 
-#myCarousel{
-    margin-top: 52px;
-}
-
 .carousel {
     clear: both;
 }
-
 
 /*TEAM*/
 .team figure{width: 100%;}
@@ -147,7 +139,7 @@ a:focus {
 /* GALLERY*/
 
 #flavors {
-    margin-top: 50px;    
+    margin-top: 50px;
 }
 
 #flavors img{
@@ -156,7 +148,6 @@ a:focus {
 }
 
 .top-menu{
-    padding-top: 100px;
     text-align: center;
 }
 
@@ -175,11 +166,11 @@ a:focus {
 
 .container mtb {
     margin: 0 auto;
-    width: 100%;    
+    width: 100%;
 }
 
 .col-lg-8{
-    margin-top: 100px;    
+    margin-top: 100px;
 }
 
 input {
@@ -227,11 +218,15 @@ button:hover {
     margin-top: 30px;
 }
 
+#flavors a > img {
+  margin: auto;
+}
+
 /* FOOTER*/
 
 .footer{
-    background-color: brown; 
-    color: #fff; 
+    background-color: brown;
+    color: #fff;
     font-size: 1em;
     color: white;
     padding: 25px;
@@ -246,13 +241,13 @@ i{
 
 /* Media Queries */
 @media screen and (max-width: 480px) {
-	
+
 	header nav, #main, aside {
 		float: left;
 		clear: left;
-		margin: 0 0 10px; 
+		margin: 0 0 10px;
 		width: 100%;
-		}	
+		}
 		header nav li {
 			margin: 0;
 			background: #efefef;
@@ -263,5 +258,5 @@ i{
 				display: block;
 				padding: 10px;
 				text-align: center;
-				}			
+				}
 }
