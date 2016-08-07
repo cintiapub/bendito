@@ -78,7 +78,7 @@ a:focus {
 }
 
 .about-box{
-  background-color: floralwhite;
+  background-color: antiquewhite;
   padding: 20px;
   margin-bottom: 10px;
 }
@@ -102,7 +102,7 @@ a:focus {
 }
 
 .service-box {
-  background-color: floralwhite;
+  background-color: antiquewhite;
   padding: 20px;
   text-align: center;
 }
@@ -171,7 +171,7 @@ a:focus {
 
 .form {
   clear: both;
-  background-color: floralwhite;
+  background-color: antiquewhite;
   padding: 20px;
 }
 
