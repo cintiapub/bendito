@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap.block-grid/latest/bootstrap3-block-grid.min.css">
 </head>
 <body>
- <header>
+   <header>
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
@@ -42,89 +42,56 @@
 </header>
 
 <div id="wrapper">
-    <div class="top-menu"><h3>You can choose between 9 flavors, let's choose all!</h3>
-    </div>
+    <div class="form border-radius-top border-radius-bottom">
+        <div class="top-menu">
+            <h2>You can choose from 9 wonderful flavors!</h2>
+            <p>Click on each cheese bread for more details.</p>
+        </div>
 
-    <!-- menu o bendito -->
-    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-    <div id="blueimp-gallery" class="blueimp-gallery">
-        <!-- The container for the modal slides -->
-        <div class="slides"></div>
-        <!-- Controls for the borderless lightbox -->
-        <h3 class="title"></h3>
-        <a class="prev">‹</a>
-        <a class="next">›</a>
-        <a class="close">×</a>
-        <a class="play-pause"></a>
-        <ol class="indicator"></ol>
-        <!-- The modal dialog, which will be used to wrap the lightbox content -->
-        <div class="modal fade">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title"></h4>
-                    </div>
-                    <div class="modal-body next"></div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default pull-left prev">
-                            <i class="glyphicon glyphicon-chevron-left"></i>
-                            Previous
-                        </button>
-                        <button type="button" class="btn btn-danger next">
-                            Next
-                            <i class="glyphicon glyphicon-chevron-right"></i>
-                        </button>
-                    </div>
-                </div>
+        <!-- images -->
+        <div id="flavors">
+            <div class="block-grid-xs-1 block-grid-sm-2 block-grid-md-3">
+                <a href="images/traditional-01.jpg" title="Traditional" data-gallery>
+                    <img src="images/traditional.jpg" alt="Traditional">
+                </a>
+                <a href="images/flavor-1.png" title="Carnitas" data-gallery>
+                    <img src="images/07.jpg" alt="Carnitas">
+                </a>
+                <a href="images/bacon-01.jpg" title="Bacon" data-gallery>
+                    <img src="images/bacon.jpg" alt="Bacon">
+                </a>
+                <a href="images/ham-01.jpg" title="Ham" data-gallery>
+                    <img src="images/ham.jpg" alt="Ham">
+                </a>
+                <a href="images/hamburguer-01.jpg" title="Hamburguer" data-gallery>
+                    <img src="images/hamburguer.jpg" alt="Hamburguer">
+                </a>
+                <a href="images/minas-cheese-01.jpg" title="Minas cheese" data-gallery>
+                    <img src="images/minas-cheese.jpg" alt="Minas cheese">
+                </a>
+                <a href="images/red-fruits-01.jpg" title="Berries" data-gallery>
+                    <img src="images/red-fruits.jpg" alt="Berries">
+                </a>
+                <a href="images/dulce-de-letche-01.jpg" title="Dulce de leche" data-gallery>
+                    <img src="images/dulce-de-letche.jpg" alt="Dulce de leche">
+                </a>
+                <a href="images/chocolate-01.JPG" title="Chocolate" data-gallery>
+                    <img src="images/chocolate.JPG" alt="Chocolate">
+                </a>
             </div>
         </div>
-    </div>
+        <!-- gallery -->
 
-    <!-- images -->
-    <div id="flavors">
-        <div class="block-grid-xs-1 block-grid-sm-2 block-grid-md-3">
-            <a href="images/flavor-1.png" title="Carnitas" data-gallery>
-                <img src="images/07.jpg" alt="Carnitas">
-            </a>
-            <a href="images/traditional-01.jpg" title="Traditional" data-gallery>
-                <img src="images/traditional.jpg" alt="Traditional">
-            </a>
-            <a href="images/bacon-01.jpg" title="Bacon" data-gallery>
-                <img src="images/bacon.jpg" alt="Bacon">
-            </a>
-            <a href="images/ham-01.jpg" title="Ham" data-gallery>
-                <img src="images/ham.jpg" alt="Ham">
-            </a>
-            <a href="images/hamburguer-01.jpg" title="Hamburguer" data-gallery>
-                <img src="images/hamburguer.jpg" alt="Hamburguer">
-            </a>
-            <a href="images/minas-cheese-01.jpg" title="Minas cheese" data-gallery>
-                <img src="images/minas-cheese.jpg" alt="Minas cheese">
-            </a>
-        </a>
-        <a href="images/red-fruits-01.jpg" title="Red fruits" data-gallery>
-            <img src="images/red-fruits.jpg" alt="Red fruits">
-        </a>
-        <a href="images/dulce-de-letche-01.jpg" title="Dulce de letche" data-gallery>
-            <img src="images/dulce-de-letche.jpg" alt="Dulce de letche">
-        </a>
-        <a href="images/chocolate-01.JPG" title="Chocolate" data-gallery>
-            <img src="images/chocolate.JPG" alt="Chocolate">
-        </a>
-    </div>
-</div>
-<!-- gallery -->
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-danger text-center"><b>How to prepare "O Bendito Pão de Queijo"</b></li>
+          <li class="list-group-item">Preheat the oven to 425°F</li>
+          <li class="list-group-item">Remove the product from the freezer only right before baking</li>
+          <li class="list-group-item">In a lightly-oiled baking sheet pan, arrange the cheese rolls 1-inch apart from each other</li>
+          <li class="list-group-item">Bake for approximately 30 min or until the cheese rolls are golden brown</li>
+          <li class="list-group-item">Carefully remove the baking sheet pan from the oven and enjoy!</li>
+      </ul>
 
-<ul class="list-group">
-  <li class="list-group-item list-group-item-danger text-center"><b>How to prepare O Bendito Pão de Queijo</b></li>
-  <li class="list-group-item">Remove the product from the freezer only just before baking (from the freezer to the oven)</li>
-  <li class="list-group-item">Place the cheese rolls with a 2cm gap</li>
-  <li class="list-group-item">Preheat oven for about 15 minutes at 180°C</li>
-  <li class="list-group-item">Bake for approx. 30 min</li>
-  <li class="list-group-item">Remove from the oven when the cheese roll is golden brown</li>
-</ul>
-
+  </div>
 </div>
 
 <!-- Footer Starts -->
@@ -132,12 +99,48 @@
     <p><a href="#"><i class="fa fa-facebook fa-3x"></i></a> <a href="#"><i class="fa fa-instagram fa-3x"></i></a> <a href="#"><i class="fa fa-twitter fa-3x"></i></a> <a href="#"></a> </p>
     Copyright 2016 O Bendito Pão de Queijo. All rights reserved.
 </div>
+
+<!-- menu o bendito -->
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-danger next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- # Footer Ends -->
 <script type='text/javascript' src='scripts/respond.min.js'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <!--gallery-->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-</body>
+<script type='text/javascript' src='scripts/menu.js'></script></body>
 </html>

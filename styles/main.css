@@ -80,7 +80,6 @@ a:focus {
 .about-box{
   background-color: antiquewhite;
   padding: 20px;
-  margin-bottom: 10px;
 }
 
 .list-group {
@@ -94,6 +93,10 @@ a:focus {
   text-align: center;
   background-color: bisque;
   margin-bottom: 0;
+}
+
+.jumbotron.mini {
+  padding: 20px;
 }
 
 #service i {
@@ -110,6 +113,8 @@ a:focus {
 .border-radius-top {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  overflow: hidden;
+  z-index: 500;
 }
 
 .border-radius-bottom {
@@ -144,8 +149,8 @@ a:focus {
 }
 
 /*TEAM*/
-.team figure{width: 100%;}
-.team img{width: 100%; border-radius: 100%;}
+.team figure{width: 90%; margin-top: 20px;}
+.team img{border-radius: 100%;margin: auto;}
 .team b{font-size: 1.2em;display: block;}
 .team a i.fa{color: red; font-size: 1em;}
 .team a i.fa:hover{color:coral;}
@@ -154,7 +159,7 @@ a:focus {
 /* GALLERY*/
 
 #flavors {
-  margin-top: 50px;
+  padding-top: 20px;
 }
 
 #flavors img{
@@ -164,8 +169,18 @@ a:focus {
 
 .top-menu{
   text-align: center;
+  margin-bottom: 20px;
 }
 
+.about-box .img-responsive {
+  margin: auto;
+}
+
+.top-menu p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
 
 /* FORM*/
 
@@ -231,6 +246,11 @@ button:hover {
 
 #flavors a > img {
   margin: auto;
+}
+
+figure.effect-chico figcaption {
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 /* FOOTER*/
