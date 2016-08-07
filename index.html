@@ -9,21 +9,43 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">		
-	</head>
+	</head>    
 	<body>		
-		<div id="wrapper">		
+		<div id="wrapper">	
+            
+<!-- *****************************************************************************************************************
+	 HEADER
+***************************************************************************************************************** -->
 			<header>				
-				<h1>Demo</h1>				
-				<nav>
-					<ul>
-						<li><a href="index.html" title="Home">Home</a></li>
-						<li><a href="about.html" title="About">About</a></li>
-						<li><a href="findus.html" title="Find us">Find us</a></li>
-						<li><a href="contact.html" title="Contact">Contact</a></li>
-					</ul>
-				</nav>				
+				<!-- Fixed navbar -->
+                <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+                  <div class="container">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="navbar-collapse collapse navbar-right">
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="findus.html">FINDUS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                  </div>
+                </div>
 			</header>			
 			
+<!-- *****************************************************************************************************************
+	   CAROUSEL
+***************************************************************************************************************** -->
+            
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
@@ -56,28 +78,47 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-            </div>    		
+            </div>   
             
-            <section id="main">
-				<h1>Main section</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</section>		
-			<aside>
-				<h1>Sub-section</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</aside>
-            <section id="resume">
-				<h1>The best flavor</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>                
-			</section>	
-		</div>
-        <footer>
-                <div class="icons">
-                 <a href="#" target="_blank"><i class="fa fa-facebook-square fa-4x"></i></a>
-                 <a href="#" target="_blank"><i class="fa fa-twitter-square fa-4x"></i></a>
-                 <a href="#" target="_blank"> <i class="fa fa-camera-retro fa-4x"></i></a>
-			    </div>
-        </footer>   
+            
+            <div class="title"><h4>Discover the trully flavor of Brazil. We are driven by passion and cheese.</h4>                    
+               </div>
+            
+<!-- *****************************************************************************************************************
+	 SERVICE BOX
+***************************************************************************************************************** -->
+             <div id="service">
+                <div class="service-box">
+                    <div class="row centered">
+                        <div class="col-md-4">
+                            <i class="fa fa-heart"></i>
+                            <h4>We love cheese bread</h4>
+                            <p>The food and the pleasure of cooking good dishes always existed in the family Garcia. </br>Our recipe is unique, high quality products and the traditional style brought from Minas Gerais farms in Brazil. Delicate flavor and texture, mixing the rustic look with a delicious fine taste.</br>We use three types of Brazilian cheese in the recipe, totaling 40% of the final product.</p>
+                            <p><br/><a href="about.html" class="btn btn-theme"><strong>About us</strong></a></p>
+                        </div>   
+                        <div class="col-md-4">
+                            <i class="fa fa-cutlery"></i>
+                            <h4>Perfect for happy hour</h4>
+                            <p>Perfect for special events and gatherings. It brings people together and lifts their spirits during breakfast, dinner, or any other time. The softest, gooiest and the most flavorful cheese bread you will ever taste! It's perfect for happy hours, meetings, parties and goes really great with coffee and tea. </br>Easy to prepare and to serve.</br>Delish, fun and inviting.<p><br/><a href="menu.html" class="btn btn-theme"><strong>Our flavors</strong></a></p>
+                        </div> 
+                        <div class="col-md-4">
+                            <i class="fa fa-leaf"></i>
+                            <h4>Vegan and Vegetarian options</h4>
+                            <p>Our recipe is gluten free and we have 9 differents kinds of flarvors, including vegetarian and vegan. We use 100% natural ingredients and require NON GMO ingredients.</br> The Bendido Pão de Queijo is made with the same care of the greatest riches of Minas, perfect for any time of the day. Delicious and nutricious, health is very important to us.</p>
+                            <p><br/><a href="menu.html" class="btn btn-theme"><strong>How to prepare</strong></a></p>
+                        </div> 
+                    </div>
+                </div><! --/service-box -->
+             </div><! --/service -->
+                    </div>
+
+        
+<!-- Footer Starts -->
+            <div class="footer text-center spacer">
+            <p><a href="#"><i class="fa fa-facebook fa-3x"></i></a> <a href="#"><i class="fa fa-instagram fa-3x"></i></a> <a href="#"><i class="fa fa-twitter fa-3x"></i></a> <a href="#"></a> </p>
+            Copyright 2016 O Bendito Pão de Queijo. All rights reserved.
+            </div>
+<!-- # Footer Ends -->
         
         <script type='text/javascript' src='scripts/respond.min.js'></script>        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

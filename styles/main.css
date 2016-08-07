@@ -6,6 +6,8 @@ body {font-size: 13px; color: #666666; font-family: Arial, helvetica, sans-serif
 ol, ul { list-style: none; margin: 0;}
 ul li { margin: 0; padding: 0;}
 h1 { margin-bottom: 10px; color: darkred !important;}	
+h3 {color: brown !important;}
+h4 {color: brown !important;}
 a, img { outline: none; border:none; color: #000 !important; font-weight: bold; text-transform: uppercase;}
 p { margin: 0 0 10px; line-height: 1.4em; font-size: 1.2em;}
 img { display: block; margin-bottom: 10px;}
@@ -14,7 +16,22 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section { 
     display: block;
 	}
-	/* Structure */
+
+
+/*  NAV */
+
+.navbar {
+	min-height: 100px;
+	padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+	margin-bottom: 20px;
+}
+
+
+/*  STRUCTURE */
 
 body{
     background-image: url('../images/restaurant_icons.png');
@@ -28,32 +45,6 @@ body{
 	padding: 2%;
 } 
 
-	#main {
-		width: 60%;
-		margin-right: 5%;
-		float: left;
-}		
-		
-	aside {
-        width: 100%;
-        float:right;
-        margin-bottom: 30px;
-}
-
-    #resume {
-        width: 100%;
-        padding-bottom: 30px;
-        
-}
-
-/* Logo H1 */
-header h1 {
-	height: 80px;
-	width: 160px;
-	float: left;
-	display: block;
-	text-indent: -9999px;
-}
 
 #gmap_canvas {
     width: 100%;
@@ -61,19 +52,9 @@ header h1 {
     background-color:lightgray;
     margin: 0 auto 40px auto;
     clear: both;
+    margin-top: 120px;
 }
 		
-/* Nav */
-header nav {
-	float: right;
-	margin-top: 25px; 
-}
-	
-	header nav li {
-		display: inline;
-		margin-left: 15px;
-}
-
 a { 	
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
@@ -88,41 +69,108 @@ a:focus {
   color:red !important;
 }
 
-/* Banner */			
-#banner {
-	margin-bottom: 15px;
-	width: 100%;
+.about-box{
+    background-color: floralwhite;
+    margin-top: 90px;
+    padding: 20px;
+    margin-bottom: 10px;
 }
 
-#banner img {
-		width: 100%;
+.row{
+    padding-bottom: 10px;
+}
+
+.list-group {
+    clear: both;
+    padding-top: 35px;
+}
+
+/* services */	
+
+.title {
+   text-align: center;
+    background-color: bisque;
+    padding: 20px;
+}
+
+#service {
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+
+#service i {
+	color:red;
+	font-size: 50px;
+    padding-left: 60px;
+}
+
+.service-box {
+    background-color: floralwhite;
+    padding: 20px;
+}
+
+.btn-theme {
+  color: white !important;
+  background-color: coral;
+  border-color: coral;
+  margin: 4px;
+}
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+  color: #fff !important;
+  background-color: brown;
+  border-color: brown;
+}
+
+/*CAROUSEL*/
+
+#myCarousel{
+    margin-top: 52px;
 }
 
 .carousel {
     clear: both;
 }
 
-#couple {
-       text-align: center;
-       position: relative;
+
+/*TEAM*/
+.team figure{width: 100%;}
+.team img{width: 100%; border-radius: 100%;}
+.team b{font-size: 1.2em;display: block;}
+.team a i.fa{color: red; font-size: 1em;}
+.team a i.fa:hover{color:coral;}
+.team b{color: darkred;}
+
+/* GALLERY*/
+
+#flavors {
+    margin-top: 50px;    
 }
 
-#ageuneuza {  
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 50%;
+#flavors img{
     border-radius: 100%;
-    margin: 0 auto;
+    padding: 10px;
 }
 
-/* form*/
+.top-menu{
+    padding-top: 100px;
+    text-align: center;
+}
 
-.mtb {
+
+/* FORM*/
+
+.form {
     clear: both;
+    background-color: floralwhite;
+    padding: 20px;
 }
 
-h3{
-    color: firebrick;
+.row {
+    padding-top: 60px;
 }
 
 .container mtb {
@@ -130,18 +178,8 @@ h3{
     width: 100%;    
 }
 
-form{
-    padding-top: 20px;  
-    
-}
-
 .col-lg-8{
     margin-top: 100px;    
-}
-
-#getintouch{
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 input {
@@ -182,19 +220,29 @@ button:hover {
     color: white;
 }
 
-/* footer*/
+#getintouch {
+    background-color: coral;
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+}
 
-    footer {
-    text-align: center;
-    }
+/* FOOTER*/
 
-    .icons {
+.footer{
+    background-color: brown; 
+    color: #fff; 
+    font-size: 1em;
+    color: white;
+    padding: 25px;
     width: 100%;
-    margin-top: 80px
-    text-align: center;
-    float: right;
-    color: crimson;
-		}
+}
+
+i{
+    padding: 5px;
+    color: bisque;
+}
+
 
 /* Media Queries */
 @media screen and (max-width: 480px) {

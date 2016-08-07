@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Responsive Web</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+		<link href="styles/main.css" type="text/css" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384- 1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!--gallery -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+        <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+	</head>
+	<body>		
+		<div id="wrapper">		
+			<header>				
+				<!-- Fixed navbar -->
+                <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+                  <div class="container">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="navbar-collapse collapse navbar-right">
+                      <ul class="nav navbar-nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li  class="active"><a href="menu.html">MENU</a></li>
+                        <li><a href="findus.html">FINDUS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                  </div>
+                </div>
+			</header>		
+     
+                <div class="top-menu"><h3>You can choose between 9 flavors, let's choose all!</h3>
+                </div>
+            
+<!-- menu o bendito -->
+    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+            <div id="blueimp-gallery" class="blueimp-gallery">
+                <!-- The container for the modal slides -->
+                <div class="slides"></div>
+                <!-- Controls for the borderless lightbox -->
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="close">×</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+                <!-- The modal dialog, which will be used to wrap the lightbox content -->
+                <div class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title"></h4>
+                            </div>
+                            <div class="modal-body next"></div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default pull-left prev">
+                                    <i class="glyphicon glyphicon-chevron-left"></i>
+                                    Previous
+                                </button>
+                                <button type="button" class="btn btn-danger next">
+                                    Next
+                                    <i class="glyphicon glyphicon-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- images -->
+            <div id="flavors">
+                <div class="col-lg-4 col-xs-12">
+                    <a href="images/flavor-1.png" title="Carnitas" data-gallery>
+                        <img src="images/07.jpg" alt="Carnitas">
+                    </a>
+                    <a href="images/traditional-01.jpg" title="Traditional" data-gallery>
+                        <img src="images/traditional.jpg" alt="Traditional">
+                    </a>
+                    <a href="images/bacon-01.jpg" title="Bacon" data-gallery>
+                        <img src="images/bacon.jpg" alt="Bacon">
+                 </div>
+                <div class="col-lg-4 col-xs-12">
+                    </a>
+                    <a href="images/ham-01.jpg" title="Ham" data-gallery>
+                        <img src="images/ham.jpg" alt="Ham">
+                    </a>
+                    <a href="images/hamburguer-01.jpg" title="Hamburguer" data-gallery>
+                        <img src="images/hamburguer.jpg" alt="Hamburguer">
+                    </a>
+                    <a href="images/minas-cheese-01.jpg" title="Minas cheese" data-gallery>
+                        <img src="images/minas-cheese.jpg" alt="Minas cheese">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                    </a>
+                    <a href="images/red-fruits-01.jpg" title="Red fruits" data-gallery>
+                        <img src="images/red-fruits.jpg" alt="Red fruits">
+                    </a>
+                    <a href="images/dulce-de-letche-01.jpg" title="Dulce de letche" data-gallery>
+                        <img src="images/dulce-de-letche.jpg" alt="Dulce de letche">
+                    </a>
+                    <a href="images/chocolate-01.JPG" title="Chocolate" data-gallery>
+                        <img src="images/chocolate.JPG" alt="Chocolate">
+                    </a>
+              </div>
+        </div>
+<!-- gallery -->            
+        
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-danger text-center"><b>How to prepare O Bendito Pão de Queijo</b></li>
+              <li class="list-group-item">Remove the product from the freezer only just before baking (from the freezer to the oven)</li>
+              <li class="list-group-item">Place the cheese rolls with a 2cm gap</li>
+              <li class="list-group-item">Preheat oven for about 15 minutes at 180°C</li>
+              <li class="list-group-item">Bake for approx. 30 min</li>
+              <li class="list-group-item">Remove from the oven when the cheese roll is golden brown</li>
+            </ul>
+                      
+        </div>
+        
+<!-- Footer Starts -->
+            <div class="footer text-center spacer">
+            <p><a href="#"><i class="fa fa-facebook fa-3x"></i></a> <a href="#"><i class="fa fa-instagram fa-3x"></i></a> <a href="#"><i class="fa fa-twitter fa-3x"></i></a> <a href="#"></a> </p>
+            Copyright 2016 O Bendito Pão de Queijo. All rights reserved.
+            </div>
+<!-- # Footer Ends --> 
+        <script type='text/javascript' src='scripts/respond.min.js'></script>        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <!--gallery-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+        <script src="js/bootstrap-image-gallery.min.js"></script>
+    </body>
+</html>

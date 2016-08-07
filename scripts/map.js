@@ -10,7 +10,7 @@ function init_map() {
         position: new google.maps.LatLng(37.7652065, -122.24163550000003)
     });
     infowindow = new google.maps.InfoWindow({
-        content: '<strong>Bendito Food Truck</strong><br>Alameda, CA<br>'
+        content: '<strong>Bendito Cousine</strong><br>Alameda, CA<br>'
     });
     google.maps.event.addListener(marker, 'click', function() {
         infowindow.open(map, marker);
